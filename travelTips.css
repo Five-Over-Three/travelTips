@@ -1,0 +1,142 @@
+﻿/* nav bar formatting */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 10px;
+    background-color: #0D1A22;
+    color: aliceblue;
+    height: 55px;
+}
+
+    nav h1 {
+        margin: 20px auto 5px auto;
+        margin-left: 5px;
+    }
+
+    nav img {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+
+        nav ul li {
+            display: inline;
+            padding-right: 10px;
+        }
+
+    nav a {
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: bold;
+    }
+
+    nav input {
+        -webkit-appearance: none;
+        border: none;
+        height: 45px;
+        width: 200px;
+        border-radius: 5px;
+        padding: 5px;
+        padding-right: 200px;
+    }
+
+    nav button {
+        -webkit-appearance: none;
+        border: none;
+        height: 35px;
+        width: 55px;
+        border-radius: 5px;
+        background-color: cadetblue;
+        color: aliceblue;
+        padding: 5px;
+        position: absolute;
+    }
+
+#searchElements {
+    position: relative;
+}
+
+#clearButton {
+    top: 10px;
+    right: 25px;
+}
+
+#searchButton {
+    top: 10px;
+    right: 85px;
+}
+
+#navLinksContainer {
+    margin: 20px auto 5px auto;
+}
+
+#searchContainer {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#navLogoContainer {
+    display: flex;
+}
+
+/* general formatting */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgba(95,158, 160, 100%), rgba(95, 158, 160, 0%)), url("./Images/background.jpg");
+}
+
+#siteIntro {
+    color: aliceblue;
+}
+
+    #siteIntro * {
+        margin-left: 200px;
+    }
+
+    #siteIntro h1 {
+        font-size: 64pt;
+        margin-top: 200px;
+        text-shadow: 1px 1px 2px rgba(13, 36, 34, 0.5);
+    }
+
+    #siteIntro h2 {
+        font-size: 24pt;
+        margin-top: 15px;
+        text-shadow: 1px 1px 1px rgba(13, 36, 34, 0.5);
+    }
+
+    #siteIntro p {
+        margin-top: 50px;
+        width: 700px;
+        font-size: 14pt;
+        text-shadow: 1px 1px 1px rgba(13, 36, 34, 0.5);
+    }
+
+#socialLinks {
+    position: fixed;
+    top: 300px;
+    margin: 20px;
+}
+
+    #socialLinks ul {
+        list-style-type: none;
+    }
+
+    #socialLinks img {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
