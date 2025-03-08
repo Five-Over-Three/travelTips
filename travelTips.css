@@ -152,12 +152,6 @@ body {
         margin-top: 60px;
     }
 
-    #aboutUsIntro {
-        margin-top: 50px;
-        width: 700px;
-        font-size: 14pt;
-    }
-
     #aboutUsContainer h2 {
         margin-top: 50px;
         font-size: 32pt;
@@ -205,3 +199,50 @@ body {
         border-radius: 5px;
         border: 1px solid cadetblue;
     }
+
+#contactUsContainer {
+    margin-left: 200px;
+    display: flex;
+}
+
+    #contactUsContainer * {
+        color: aliceblue;
+        text-shadow: 1px 1px 2px rgba(13, 36, 34, 0.5);
+    }
+
+
+    #contactUsContainer h1 {
+        font-size: 64pt;
+        margin-top: 60px;
+    }
+
+    #contactUsContainer input, textarea, button {
+        -webkit-appearance: none;
+        background-color: rgba(13, 36, 34, 0.6);
+        border-radius: 5px;
+        border: 1px solid rgba(240, 248, 255, 50%);
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #contactUsContainer button {
+        background-color: cadetblue;
+    }
+
+    #contactUsContainer ::placeholder {
+        color: rgba(240, 248, 255, 70%);
+    }
+
+.pageIntro {
+    margin-top: 50px;
+    width: 700px;
+    font-size: 14pt;
+}
+
+#contactForm {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
