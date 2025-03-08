@@ -104,25 +104,23 @@ body {
 
     #siteIntro * {
         margin-left: 200px;
+        text-shadow: 1px 1px 1px rgba(13, 36, 34, 0.5);
     }
 
     #siteIntro h1 {
         font-size: 64pt;
         margin-top: 200px;
-        text-shadow: 1px 1px 2px rgba(13, 36, 34, 0.5);
     }
 
     #siteIntro h2 {
         font-size: 24pt;
         margin-top: 15px;
-        text-shadow: 1px 1px 1px rgba(13, 36, 34, 0.5);
     }
 
     #siteIntro p {
         margin-top: 50px;
         width: 700px;
         font-size: 14pt;
-        text-shadow: 1px 1px 1px rgba(13, 36, 34, 0.5);
     }
 
 #socialLinks {
@@ -139,4 +137,71 @@ body {
         width: 50px;
         height: 50px;
         padding: 10px;
+    }
+
+/* about us formatting*/
+
+#aboutUsContainer {
+    color: aliceblue;
+    margin-left: 200px;
+    text-shadow: 1px 1px 2px rgba(13, 36, 34, 0.5);
+}
+
+    #aboutUsContainer h1 {
+        font-size: 64pt;
+        margin-top: 60px;
+    }
+
+    #aboutUsIntro {
+        margin-top: 50px;
+        width: 700px;
+        font-size: 14pt;
+    }
+
+    #aboutUsContainer h2 {
+        margin-top: 50px;
+        font-size: 32pt;
+    }
+
+#cardStack {
+    display: flex;
+}
+
+.idCard {
+    background-color: rgba(13, 36, 34, 0.6);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid cadetblue;
+}
+
+    .idCard p {
+        margin-top: 10px;
+        font-size: 11pt;
+        font-weight: normal;
+        color: rgba(240, 248, 255, 80%);
+        min-height: 150px;
+    }
+
+    .idCard h4 {
+        margin-top: 20px;
+        text-align: center;
+        background-color: cadetblue;
+        padding: 8px;
+        border-radius: 5px;
+        width: 200px;
+        border: 1px solid aliceblue;
+    }
+
+    .idCard img {
+        width: 100px;
+        float: left;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid cadetblue;
     }
