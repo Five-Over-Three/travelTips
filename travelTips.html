@@ -23,17 +23,21 @@
             <ul id="searchElements">
                 <li><input id="searchBar" type="text" placeholder="Enter a destination or keyword" /></li>
                 <li><button id="searchButton" onclick="getRecommendation()">Search</button></li>
-                <li><button id="clearButton">Clear</button></li>
+                <li><button id="clearButton" onclick="clearResults()">Clear</button></li>
             </ul>
         </div>
     </nav>
-    <div id="siteIntro">
-        <h1>TravelTips</h1>
-        <h2>Let us point you to your next dream holiday</h2>
-        <p>
-            Whether it's relaxing on the beach, soaking in the spiritual calm of a local temple or taking in the cultural highlights of a bustling city, our hand-crafted travel tips guarantee
-            your next break away will be the trip of a lifetime!
-        </p>
+    <div id="mainContainer">
+        <div id="siteIntro">
+            <h1>TravelTips</h1>
+            <h2>Let us point you to your next dream holiday</h2>
+            <p>
+                Whether it's relaxing on the beach, soaking in the spiritual calm of a local temple or taking in the cultural highlights of a bustling city, our hand-crafted travel tips guarantee
+                your next break away will be the trip of a lifetime!
+            </p>
+        </div>
+        <div id="resultsContainer">
+        </div>
     </div>
     <div id="socialLinks">
         <ul>
