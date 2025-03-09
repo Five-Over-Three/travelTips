@@ -83,3 +83,12 @@ function clearResults() {
     document.getElementById("searchBar").value = "";
     document.getElementById("resultsContainer").innerHTML = "";
 }
+
+function submitForm() {
+    let contactForm = document.getElementById("contactForm");
+
+    if (contactForm.checkValidity()) {
+        alert("Thank you for your feedback!");
+        contactForm.reset();
+    }
+}
